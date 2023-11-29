@@ -21,7 +21,7 @@ public class Problema2 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
         int n;
-      
+
         int suma = 0;
         int contador = 1;
         String cadena = "";
@@ -30,8 +30,7 @@ public class Problema2 {
         if (n > 0) {
             if (n % 2 == 0) {
                 while (contador <= n) {
-                    
-                    suma = suma +1;
+                    suma = suma + 1;
                     contador = contador + 1;
                     cadena = String.format("%s %d ", cadena, suma);
                 }

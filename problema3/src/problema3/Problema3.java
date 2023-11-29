@@ -27,16 +27,14 @@ public class Problema3 {
         m = entrada.nextInt();
         System.out.println("Ingrese el multiplicador");
         n = entrada.nextInt();
-                do {
-                    m = m/2;
-                    n=n*2;
-                    if(m%2==1){
-                     suma = suma + n;
-                    }
-                }while (m > 1); 
-                System.out.printf("%d",suma);
-           
-        }
+        do {
+            if (m % 2 == 1) {
+                suma = suma + n;
+            }
+            m = m / 2;
+            n = n * 2;
+        } while (m >= 1);
+        System.out.printf("%d\n", suma);
+
     }
-
-
+}

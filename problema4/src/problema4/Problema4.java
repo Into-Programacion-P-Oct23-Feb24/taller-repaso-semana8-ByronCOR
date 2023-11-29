@@ -22,7 +22,7 @@ public class Problema4 {
         while (n <= 4) {
             n = n + 1;
         }
-        System.out.printf("%d",n);
+        System.out.printf("%d\n",n);
     }
 }
 
